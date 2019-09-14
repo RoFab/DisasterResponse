@@ -17,9 +17,9 @@ This project is part of the Udacity Data Science Nanodegree.
 
 ## File description <a name="file"></a>
 
-Data - ETL Pipeline Preparation Notebook: information about implementing ETL pipeline
-Models - ML Pipeline Preparation: information about development of machine learning pipeline
-App  - run.py: To run the web app. 
+* Data - ETL Pipeline Preparation Notebook: information about implementing ETL pipeline
+* Models - ML Pipeline Preparation: information about development of machine learning pipeline
+* App  - run.py: To run the web app. 
 
 
 ## Running the web app <a name="app"></a>
