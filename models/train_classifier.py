@@ -28,9 +28,9 @@ def load_data(database_filepath):
     Y = df.iloc[:,4:]
     
     Y['related']=Y['related'].map(lambda x: 1 if x == 2 else x)
-    categories = Y.columns
+    category_names = Y.columns
     
-    return X, Y, categories
+    return X, Y, category_names
 
 
 def tokenize(text):
@@ -77,7 +77,7 @@ def evaluate_model(model, X_test, Y_test, category_names):
     """ 
     
     Y_pred = model.predict(X_test)
-    print(classification_report(Y_test.values, Y_pred, target_names=categories))
+    print(classification_report(Y_test.values, Y_pred, target_names=category_names))
     
 
 
